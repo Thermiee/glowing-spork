@@ -1,16 +1,18 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import './Navbar.css';
 
 export default class NavBar extends Component {
   render() {
     return (
-    <div>
-    <div>
+    <div className='navbar'>
+    <div className='nav-items'>
             <ul>
                 <li>women</li>
                 <li>men</li>
                 <li>kids</li>
             </ul>
-        </div><div>
+        </div>
+        <div  className='nav-items'>
                 <ul>
                     <li>$</li>
                 <li>cart</li>
