@@ -12,6 +12,7 @@ export default class NavBar extends Component {
                 <li>kids</li>
             </ul>
         </div>
+        <div>logo</div>
         <div  className='nav-items'>
                 <ul>
                     <li>$</li>

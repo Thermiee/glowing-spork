@@ -1,25 +1,23 @@
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    background-color: #1D2330; 
-    box-sizing: border-box;
-    border: 1px solid #282E3B;
-    text-align: right;
-    box-shadow: inset 0 -20px 0 0 #1D2330;
-    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  text-align: right;
+  width: 100%;
+  align-items: center;
 }
 
 .nav-items {
-    display: flex;
-    justify-content: space-between;
-     padding: 10px; 
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
 }
 
 .nav-items ul {
-    display: flex;
-    list-style-type: none;
+  display: flex;
+  list-style-type: none;
 }
 
 .nav-items ul li {
-    margin: 10px;
+  margin: 10px;
 }
