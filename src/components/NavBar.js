@@ -3,6 +3,11 @@ import './Navbar.css';
 import logo from '../images/icon.png';
 
 export default class NavBar extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
   render() {
     return (
       <div className="navbar">
