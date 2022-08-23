@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './Navbar.css';
+import logo from '../images/icon.png' 
 
-export default class NavBar extends Component {
+export default class NavBar extends Component { 
   render() {
     return (
     <div className='navbar'>
@@ -12,7 +13,9 @@ export default class NavBar extends Component {
                 <li>kids</li>
             </ul>
         </div>
-        <div>logo</div>
+        <div>
+            <img src={logo} alt="Brand logo" />
+        </div>
         <div  className='nav-items'>
                 <ul>
                     <li>$</li>
