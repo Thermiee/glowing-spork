@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  text-align: right;
+  width: 100%;
+  align-items: center;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.nav-items ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-items ul li {
+  margin: 10px;
+}
+
+.nav-items ul li :active {
+  color: green;
+}
