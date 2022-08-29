@@ -36,7 +36,7 @@ class Header extends Component {
       <nav className="nav">
         <div className="nav-cont d-flex a-center">
           <Link to="/">
-            <h1>Scandiweb Store</h1>
+            <h1>Glowing-Spork Store</h1>
           </Link>
           <FaShopify className="nav-img" />
           <div className="cart-filter-currency d-flex a-center j-center">
